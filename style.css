@@ -1,0 +1,57 @@
+body {
+  background-color: maroon;
+}
+
+.mainbox {
+  background-color: maroon;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: center;
+}
+
+  .err {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:center;
+    left: 20%;
+    top: 8%;
+  }
+
+.far {
+  position: center;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+ .err2 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:center;
+    left: 68%;
+    top: 8%;
+  }
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position:relative;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+    color: white;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
