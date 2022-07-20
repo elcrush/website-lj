@@ -39,13 +39,6 @@
                     $_POST['usernamebaru']
                 );  
     }
-     if(isset($_POST['submit_file']))
-    {
-            $ucp_user->UpdateFile(
-                    $_SESSION['username'],
-                    $_POST['fileToUpload']
-                );  
-    }
     if(isset($_POST['submit_setdonate']))
     {
             $ucp_user->SetDonate(
@@ -418,7 +411,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Lost Java Indonesia - <?php echo date(Y)?></span>
+                        <span>Copyright &copy; Lost Java Indonesia - 2022</span>
                     </div>
                 </div>
             </footer>
